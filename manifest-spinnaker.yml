@@ -1,0 +1,7 @@
+---
+applications:
+  - name: spinnaker-demo
+    memory: 1G
+    instances: 1
+    routes:
+     - route: pas-spinnaker-demo.cfapps.io
